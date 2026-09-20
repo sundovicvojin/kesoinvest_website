@@ -1,0 +1,75 @@
+.type-display,
+.type-h1,
+.type-h2,
+.type-h3 {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+.type-display {
+  font-size: clamp(3.7rem, 10.8vw, 12rem);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+}
+
+.type-monumental {
+  font-family: var(--font-sans), Arial, sans-serif;
+  font-size: clamp(4.25rem, 15vw, 17rem);
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  line-height: 0.72;
+  text-wrap: balance;
+}
+
+.type-h1 {
+  font-size: var(--type-h1);
+  letter-spacing: var(--tracking-display);
+  line-height: 0.92;
+}
+
+.type-h2 {
+  font-size: var(--type-h2);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-heading);
+}
+
+.type-h3 {
+  font-size: var(--type-h3);
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.type-body-large {
+  font-size: var(--type-body-large);
+  line-height: 1.55;
+}
+
+.type-body {
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+
+.type-small {
+  font-size: var(--type-small);
+  line-height: 1.55;
+}
+
+.type-label,
+.type-nav {
+  font-family: var(--font-sans), Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.type-label {
+  font-size: var(--type-label);
+  letter-spacing: var(--tracking-label);
+  line-height: 1.3;
+}
+
+.type-nav {
+  font-size: var(--type-nav);
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+}
